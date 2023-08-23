@@ -66,6 +66,7 @@ nav {
     
   }
 
+
   body{
     margin:0;
     padding-top: 200px;
@@ -78,3 +79,24 @@ nav {
     align-items: center;
     
   }
+
+  h2{
+    background-color:pink;
+    color:white;
+    margin-top:200;
+    text-align:center;
+    font-size:20;
+    font-family:arial;
+  }
+
+  .hijab{
+    width: 500px;
+    max-width:;
+    height: 500px;
+  }
+  .imgtxt{
+    display:flex;
+    
+
+  }
+ 
