@@ -4,12 +4,13 @@ ul {
   font-size: 130%;
   font-family: arial;
   background-color: white;
-  margin-top: 23px;
+  margin-top: 40px;
   padding: 0;
   width: 100%; /* Ensures it takes the full width of its container */
   display: flex; /* Use flexbox to center the content */
   flex-direction: column; /* Stack children vertically */
   align-items: center; /* Horizontally center the content */
+  
 }
 
 li{
@@ -96,11 +97,21 @@ nav {
 
   .modest-tagline {
     text-align: center; /* Center the text */
-    margin-top: 150px; /* Give some space from the navbar */
-    margin-bottom: 10px; /* Give some space before the gallery */
+    margin-top: 130px; /* Give some space from the navbar */
+    margin-bottom: -10px; /* Give some space before the gallery */
     font-size: 24px; /* Set the font size */
     font-weight: bold; /* Make the font bold */
     color: #333; /* Dark color for the text, but you can adjust as needed */
     font-family: arial;
 }
+
+.minibar nav ul li a {
+  color: black;       /* Set the text color to black */
+  text-decoration: none;  /* Optionally, remove the underline */
+}
+
+.minibar nav ul li a:hover {
+  color: black;       /* Ensures that the color remains black even when hovered over */
+}
+
  
