@@ -90,7 +90,17 @@ nav {
     padding-top:40;
     padding-bottom:40;
     margin-bottom:-100;
+    margin-left:20;
+    margin-right:20;
   }
 
-  
+  .modest-tagline {
+    text-align: center; /* Center the text */
+    margin-top: 150px; /* Give some space from the navbar */
+    margin-bottom: 10px; /* Give some space before the gallery */
+    font-size: 24px; /* Set the font size */
+    font-weight: bold; /* Make the font bold */
+    color: #333; /* Dark color for the text, but you can adjust as needed */
+    font-family: arial;
+}
  
